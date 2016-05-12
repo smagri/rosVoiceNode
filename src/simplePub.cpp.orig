@@ -60,7 +60,7 @@ int main(int argc, char **argv){
   // Message Buffer size = 1000 messages
   // Message Type is std_msgs/String
   int nodeBufSize = 1000;
-  ros::Publisher txt4TTSpubObj
+  ros::Publnodeisher txt4TTSpubObj
     = n.advertise<std_msgs::String>("txt4TTStopic", nodeBufSize);
 
   // Specifies the frequency that you  would like to loop at.  It will

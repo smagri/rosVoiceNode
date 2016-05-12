@@ -1,6 +1,7 @@
-# thisProject.gitignore %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+# ros.gitignore %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 #
-# remove bin and build directories below the current directory
+# remove bin and build directories below the current directory(that
+# is, the current package directory)
 /bin
 /build
 
