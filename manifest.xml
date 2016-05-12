@@ -1,0 +1,17 @@
+<package>
+  <description brief="rosVoiceNode">
+
+     rosVoiceNode
+
+  </description>
+  <author>Simone Magrihome0401 858 908</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rosVoiceNode</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+
