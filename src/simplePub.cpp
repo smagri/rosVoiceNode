@@ -107,11 +107,12 @@ int main(int argc, char **argv){
 
     
     // Broadcast to the world, rosout and other subscribers to the topic.
-    // ROS_INFO..etc replace printf/cout.
-    //ROS_INFO("%s", msg.data.c_str());
-//    ROS_INFO("%s", txt4TTS);
-//    ROS_INFO("%s", voiceName);
-
+    // ROS_INFO..etc replaces printf/cout.
+    //
+    // ROS_INFO("%s", msg.data.c_str());
+    //    ROS_INFO("%s", txt4TTS);
+    //    ROS_INFO("%s", voiceName);
+    //
     // debug
     //fprintf(stderr, "Say text: %s\n", txt4TTS);
     //fprintf(stderr, "Using the voice: %s\n", voiceName);

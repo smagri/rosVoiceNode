@@ -16,6 +16,9 @@
 void txt4TTStopicCallback(const std_msgs::String::ConstPtr& msg){
   ROS_INFO("I heard: [%s]", msg->data.c_str());
 }
+void voiceNameTopicCallback(const std_msgs::String::ConstPtr& msg){
+  ROS_INFO("I heard: [%s]", msg->data.c_str());
+}
 
  
 int main(int argc, char **argv){
@@ -65,6 +68,8 @@ int main(int argc, char **argv){
   int nodeBufSize = 1000;
   ros::Subscriber txt4TTSsubObj
     = n.subscribe("txt4TTStopic", nodeBufSize, txt4TTStopicCallback);
+  ros::Subscriber voiceNameSubObj
+    = n.subscribe("voiceNameTopic", nodeBufSize, voiceNameTopicCallback);
 
   // ros::spin()  will enter  a  loop, pumping  callbacks.  With  this
   // version,  all callbacks will  be called  from within  this thread
